@@ -36,7 +36,7 @@ const Navbar = (props) => {
   );
 };
 
-Navbar.PropTypes = {
+Navbar.propTypes = {
   firstItem: PropTypes.string,
   otherItems: PropTypes.array,
 };
